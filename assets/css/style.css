@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #b17eb6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #c09ddd;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.section__title--about{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.about-me {
+    color: aquamarine;
+    padding: 10px;
+    height: 200px;
+    margin-top: 10px ;
+    margin-bottom: 25px;
+    background-color: rgb(166, 206, 230);
+}
+
+.about-me img{
+    height: 200px;
+    margin: 25px;
+    position: relative;
+    bottom: 80px;
+    border-radius: 0%;
+    box-shadow: inset 0 0 25px 25px rgb(10, 9, 9)
+
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+
+.about-me p{
+    padding: 20px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+
+}
+
+.work h2{
+    display: inline-block;
+    font-size: 25px;
+    color: blueviolet;
+    position: relative;
+	bottom: 150px;
+	right: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.img1{
+    position: relative;
+    display: block;
+    height: auto;
+    border: 10px solid rgb(40, 4, 54);
+
+}
+
+.overlay1{
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+    color: #032833;
+    font-size: 25px;
+
+
+}
+
+
+.img2{
+    position: relative;
+    height: 800px;
+    width: 300px;
+    border: 10px solid rgb(3, 27, 46);
+
+}
+
+.overlay2{
+    position: absolute;
+    bottom: -100px;
+    left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+    color: #032833;
+    font-size: 25px;
+}
+
+
+.img3{
+    height: 700px;
+    width: 300px;
+    border: 10px solid rgb(40, 4, 54);
+    position: relative;
+}
+
+.overlay3{
+    position: absolute;
+    bottom: -350px;
+    left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: 1000;
+    color: #032833;
+    font-size: 25px;
+}
+
+.row img:hover {
+    opacity: .5;
+}
+
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #1f0425;
+    background-color:#c09ddd;
+}
+
+.footer h2{
+    display: inline-block;
+    font-size: 25px;
+    color: #ffffff;
+    font-size: 40px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+}
+
+  .header h1 {
+    font-size: 20px;
+}
+
+    .section__title--about{
+    font-size: 20px;
+  
+}
+
+   .about-me p{
+    padding: 20px;
+    height: 20px;
+ 
+
+}   
+    .work h2{
+    font-size: 20px;
+    
+}
+}
+
+
+
+
+
+
+
+
+
+
