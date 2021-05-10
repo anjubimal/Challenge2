@@ -47,6 +47,11 @@ p {
     font-size: 16px;
 }
 
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .section__title--about{
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 40px;
@@ -98,6 +103,9 @@ p {
     font-size: 40px;
 }
 
+.robot-gladiators{
+    background-image: url("../images/robot.png");
+}
 .img1{
     position: relative;
     display: block;
@@ -107,9 +115,9 @@ p {
 }
 
 .overlay1{
-    position: absolute;
+    /* position: absolute;
     bottom: 150px;
-    left: 50px;
+    left: 50px;  */
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: 1000;
     color: #032833;
@@ -128,9 +136,9 @@ p {
 }
 
 .overlay2{
-    position: absolute;
+    /* position: absolute;
     bottom: -100px;
-    left: 50px;
+    left: 50px; */
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: 1000;
     color: #032833;
@@ -142,13 +150,13 @@ p {
     height: 700px;
     width: 300px;
     border: 10px solid rgb(40, 4, 54);
-    position: relative;
+    /* position: relative; */
 }
 
 .overlay3{
-    position: absolute;
+    /* position: absolute;
     bottom: -350px;
-    left: 50px;
+    left: 50px; */
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-weight: 1000;
     color: #032833;
@@ -164,7 +172,7 @@ p {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     font-size: 20px;
     color: #1f0425;
     background-color:#c09ddd;
